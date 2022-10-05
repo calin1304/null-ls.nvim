@@ -158,6 +158,7 @@ return {
     formatting = { "prettier", "prettier_d_slim", "prettier_eslint", "prettierd" }
   },
   haskell = {
+    diagnostics = { "hlint" },
     formatting = { "brittany", "fourmolu", "stylish_haskell" }
   },
   hcl = {

@@ -109,6 +109,9 @@ return {
   haml_lint = {
     filetypes = { "haml" }
   },
+  hlint = {
+    filetypes = { "haskell" }
+  },
   jshint = {
     filetypes = { "javascript" }
   },

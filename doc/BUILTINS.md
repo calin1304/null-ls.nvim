@@ -983,6 +983,23 @@ local sources = { null_ls.builtins.diagnostics.haml_lint }
 - Command: `haml-lint`
 - Args: `{ "--reporter", "json", "$FILENAME" }`
 
+### [hlint](https://github.com/ndmitchell/hlint)
+
+Haskell source code suggestions
+
+#### Usage
+
+```lua
+local sources = { null_ls.builtins.diagnostics.hlint }
+```
+
+#### Defaults
+
+- Filetypes: `{ "haskell" }`
+- Method: ``
+- Command: `hlint`
+- Args: `{ "-" }`
+
 ### [jshint](https://github.com/jshint/jshint)
 
 JSHint is a tool that helps to detect errors and potential problems in your JavaScript code.
